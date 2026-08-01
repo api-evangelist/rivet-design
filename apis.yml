@@ -1,7 +1,25 @@
 aid: rivet-design
 name: Rivet Design
-description: Rivet Design is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Rivet is a design agent that works alongside your coding agent: given a prompt or
+  an existing application, it explores dozens of distinct visual and UI design directions
+  in parallel so you can compare them side by side and pick the one that fits, instead
+  of iterating on a single design by hand. As of this profile it is an early-stage
+  product presented through a marketing landing page at tryrivet.design; no public
+  API, SDKs, CLI, MCP server, or developer documentation are published yet, so the
+  API Evangelist network tracks it as an identity-only company profile.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://tryrivet.design/images/rivet-social.jpg
 url: https://raw.githubusercontent.com/api-evangelist/rivet-design/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Design
+- AI Agents
+- Generative AI
+- Developer Tools
+- UI Design
+- Design Automation
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/rivet-design-domain-security.yml
+- type: Website
+  url: https://tryrivet.design/
