@@ -8,6 +8,17 @@ description: >-
   product presented through a marketing landing page at tryrivet.design; no public
   API, SDKs, CLI, MCP server, or developer documentation are published yet, so the
   API Evangelist network tracks it as an identity-only company profile.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
